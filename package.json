@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -17,5 +19,11 @@
   "bugs": {
     "url": "https://github.com/john-bauer/simple-auth/issues"
   },
-  "homepage": "https://github.com/john-bauer/simple-auth#readme"
+  "homepage": "https://github.com/john-bauer/simple-auth#readme",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "express": "^4.15.3",
+    "passport": "^0.3.2",
+    "path": "^0.12.7"
+  }
 }
